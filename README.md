@@ -44,9 +44,6 @@ kubebuilder create api --group mydomain --version v1 --kind MyKind
 # Generate the manifests
 make manifests
 
-# Install the CRDs
-make install
-
 # Get kubernetes cluster info
 kubectl cluster-info
 
