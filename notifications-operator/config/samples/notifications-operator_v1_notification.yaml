@@ -1,0 +1,11 @@
+apiVersion: notifications-operator.notifications-operator.com/v1
+kind: Notification
+metadata:
+  labels:
+    app.kubernetes.io/name: notifications-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: notification-sample
+spec:
+  # TODO(user): Add fields here
+  foo: bar
+  message: Hello k8s operator!
